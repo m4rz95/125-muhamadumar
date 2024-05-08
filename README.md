@@ -1,6 +1,8 @@
-MUHAMAD UMAR - 125
-FULLSTACK
-GROUP 5
+-   MUHAMAD UMAR - 125
+    FULLSTACK
+    GROUP 5
+-   Judul : SIKPI
+-   Deskripsi : Sistem Informasi Manajemen Key Performance Indicators( pengelolaan parameter penilaian, pengelolaan bobot target dan perhitungan performance karyawan, oleh admin, kemudian user mengisi realisasi yang sudah di tentukan oleh admin)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
