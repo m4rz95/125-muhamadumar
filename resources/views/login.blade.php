@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>SIKPI</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/css2.css">
-    <script src="js/app.js" defer=""></script>
+    <link rel="icon" type="image/png" href="{{'assets/images/favicon.png'}}">
+    <link rel="stylesheet" href="{{'assets/css/app.css'}}">
+    <link rel="stylesheet" href="{{'assets/css/css2.css'}}">
+    <script src="{{'assets/js/app.js'}}" defer=""></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="css/css2.css?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="{{'assets/css/css2.css?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap'}}" rel="stylesheet">
     <script>
       localStorage.getItem("_x_darkMode_on") === "true" &&
         document.documentElement.classList.add("dark");
@@ -27,7 +27,7 @@
     <div id="root" class="min-h-100vh flex grow bg-slate-50 dark:bg-navy-900" x-cloak="">
       <div class="fixed top-0 hidden p-6 lg:block lg:px-12">
         <a href="#" class="flex items-center space-x-2">
-          <img class="size-12" src="images/app-logo.png" alt="logo">
+          <img class="size-12" src="{{'assets/images/app-logo.png'}}" alt="logo">
           <p class="text-xl font-semibold uppercase text-slate-700 dark:text-navy-100">
             SIKPI
           </p>
@@ -35,14 +35,14 @@
       </div>
       <div class="hidden w-full place-items-center lg:grid">
         <div class="w-full max-w-lg p-6">
-          <img class="w-full" x-show="!$store.global.isDarkModeEnabled" src="images/illustrations/dashboard-check.svg" alt="image">
-          <img class="w-full" x-show="$store.global.isDarkModeEnabled" src="images/illustrations/dashboard-check-dark.svg" alt="image">
+          <img class="w-full" x-show="!$store.global.isDarkModeEnabled" src="{{'assets/images/illustrations/dashboard-check.svg'}}" alt="image">
+          <img class="w-full" x-show="$store.global.isDarkModeEnabled" src="{{'assets/images/illustrations/dashboard-check-dark.svg'}}" alt="image">
         </div>
       </div>
       <main class="flex w-full flex-col items-center bg-white dark:bg-navy-700 lg:max-w-md">
         <div class="flex w-full max-w-sm grow flex-col justify-center p-5">
           <div class="text-center">
-            <img class="mx-auto size-16 lg:hidden" src="images/app-logo.png" alt="logo">
+            <img class="mx-auto size-16 lg:hidden" src="{{'assets/images/app-logo.png'}}" alt="logo">
             <div class="mt-4">
               <h2 class="text-2xl font-semibold text-slate-600 dark:text-navy-100">
                 Selamat Datang
